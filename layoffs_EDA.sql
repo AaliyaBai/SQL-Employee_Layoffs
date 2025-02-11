@@ -154,22 +154,3 @@ from layoffs_staging2  ;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SELECT 
-   `date` , 
-    SUM(total_laid_off) OVER (PARTITION BY (`date`)) AS rolling_total
-FROM layoffs_staging2;
