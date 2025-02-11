@@ -6,8 +6,8 @@
 This project aims to analyze employee layoffs across various industries using SQL. The goal is to clean, explore, and visualize the dataset to identify trends and insights related to layoffs.
 
 ## Technologies Used
-- **SQL (PostgreSQL / MySQL / MS SQL Server)** – Used for data cleaning and exploratory data analysis (EDA)
-- **Power BI** – Used for data visualization (see `layoffs_Visualisation.pbix` file)
+- **SQL (MySQL / MS SQL Server)** – Used for data cleaning and exploratory data analysis (EDA)
+- **Power BI** – Used for data visualization (`layoffs_Visualisation.pbix` file)
 
 ## Files in the Repository
 1. **layoffs_data_cleaning.sql** – SQL scripts for data cleaning
@@ -42,13 +42,3 @@ This project aims to analyze employee layoffs across various industries using SQ
 - Large corporations had more layoffs compared to smaller companies
 - Specific economic downturns correlated with spikes in layoffs
 
-## How to Use
-1. Run the **layoffs_data_cleaning.sql** file to clean the dataset.
-2. Execute **layoffs_EDA.sql** to analyze the dataset.
-3. Apply **layoffs_Views.sql** to create necessary database views.
-4. Open **layoffs_Visualisation.pbix** in Power BI to interact with the dashboards.
-
-## Future Improvements
-- Incorporate machine learning for predictive layoff analysis
-- Expand dataset to include recent layoffs
-- Automate SQL queries for real-time data updates
